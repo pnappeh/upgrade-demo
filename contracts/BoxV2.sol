@@ -1,7 +1,7 @@
 // SPDX-License-Indentifier: MIT
-pragma Solidity ^0.8.0;
+pragma solidity ^0.8.0;
 
-contract Box {
+contract BoxV2 {
     uint256 private value;
 
     event ValueChanged(uint256 newValue);
